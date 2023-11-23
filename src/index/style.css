@@ -1,0 +1,40 @@
+/* General */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: linear-gradient(142.14deg, #0265b1 42.25%, #7b358c 72%);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+/* Main Content */
+
+.main-content-container {
+  margin: auto;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.b-content {
+  > svg {
+    fill: white;
+    height: 15vw;
+    width: 15vw;
+  }
+  > img {
+    height: 15vw;
+  }
+}
+.link {
+  margin: auto;
+  margin-right: 7vw;
+  > svg {
+    width: 5vw;
+    height: 5vw;
+    fill: white;
+  }
+}
